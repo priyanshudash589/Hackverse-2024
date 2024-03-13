@@ -269,7 +269,7 @@ const About = () => {
               <div
                 className=" col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#00968f] shadow-[#509f9b54]"
               >
-                <h3 className="font-semibold text-lg mb-1">Judging Round 2</h3><h5 className=' text-sm text-slate-600'>08:00 pm</h5>
+                <h3 className="font-semibold text-lg mb-1">Judging Round 02</h3><h5 className=' text-sm text-slate-600'>08:00 pm</h5>
                 <br />
                 <p className="leading-tight text-justify">
                 Demonstrate your progress and the functionality of your product to the judges. Highlight the unique features and functionalities that set your project apart.

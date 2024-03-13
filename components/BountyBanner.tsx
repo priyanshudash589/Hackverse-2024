@@ -22,7 +22,7 @@ const BountyBanner = () => {
             height={1080}
           />
           <h1 className="uppercase bg-gradient bg-clip-text text-transparent font-bold text-lg md:text-2xl lg:text-7xl text-center">
-            $45000 <br /> Bounties
+            $45000 <br /> Bounties <br /> & <br /> Intership Opportunity
           </h1>
           <Image
             alt="about-image-r"
