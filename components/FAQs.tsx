@@ -32,6 +32,53 @@ const FAQs = () => {
             answer:
                 "Yes, the event may include competitions, hackathons, or coding challenges. Keep an eye on the event schedule for details on specific contests and how to participate.",
         },
+        {
+            question: "Team Size?",
+            answer:
+                "(1-3)",
+        },
+
+        {
+            question: "Who can participate?",
+            answer:
+                "Anyone passionate about coding can participate in a hackathon. Whether you’re a beginner or an experienced developer, hackathons offers a great opportunity to learn, collaborate, and showcase your skills. 🚀👩‍💻",
+        },
+        {
+            question: "Is this an offline event?",
+            answer:
+                "Yes,this is an offline event",
+        },
+        {
+            question: "Can we apply as a team?",
+            answer:
+                "Yes, you can participate either as a team or individually",
+        },
+        {
+            question: "What if we don't have a team?",
+            answer:
+                "No worries, participants can hack solo also",
+        },
+        {
+            question: "Will there be arrangements for food and resting area ?",
+            answer:
+                    "Yes,food is on us.We will provide you resting area as well",
+        },
+        {
+            question: "Once I am accepted,what do I need to bring?",
+            answer:
+                    "Your college id card,laptop,phone,charger",
+        },
+        {
+            question: "Is it possible to attend it virtually?",
+            answer:
+                "No, the hackathon is going to be held offline only.",
+        },
+        {
+            question: "Did we miss something?",
+            answer:
+                "If we missed anything or you have other queries ,contact us on satapathyprayasu@gmail.com",
+        },
+        
     ];
 
     return (
