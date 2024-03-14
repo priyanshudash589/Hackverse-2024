@@ -17,17 +17,17 @@ const BountyBanner = () => {
           <Image
             alt="about-image-l"
             src={"/images/banner-l-shape.png"}
-            className="w-10 md:w-20 h-fit"
+            className=" w-10 md:w-36 h-fit"
             width={1920}
             height={1080}
           />
-          <h1 className="uppercase bg-gradient bg-clip-text text-transparent font-bold text-lg md:text-2xl lg:text-7xl text-center">
+          <h1 className="uppercase bg-gradient bg-clip-text text-transparent font-bold text-lg md:text-2xl lg:text-5xl text-center">
             $45000 <br /> Bounties <br /> & <br /> Intership Opportunity
           </h1>
           <Image
             alt="about-image-r"
             src={"/images/banner-r-shape.png"}
-            className="w-10 md:w-20 h-fit"
+            className="w-10 md:w-36 h-fit"
             width={1920}
             height={1080}
           />
