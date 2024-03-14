@@ -17,7 +17,7 @@ const BountyBanner = () => {
           <Image
             alt="about-image-l"
             src={"/images/banner-l-shape.png"}
-            className=" w-10 md:w-36 h-fit"
+            className="w-10 md:w-[220px] h-fit absolute left-[120px]"
             width={1920}
             height={1080}
           />
@@ -27,7 +27,7 @@ const BountyBanner = () => {
           <Image
             alt="about-image-r"
             src={"/images/banner-r-shape.png"}
-            className="w-10 md:w-36 h-fit"
+            className="w-10 md:w-[220px] h-fit absolute right-[120px]"
             width={1920}
             height={1080}
           />
