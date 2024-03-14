@@ -5,22 +5,22 @@ const About = () => {
     <>
     <div id="about" className="h-full ">
       <div className="container-fix">
-        <div className="border-[#00968F] flex flex-col gap-8 border bg-black container-fix rounded-xl shadow-2xl shadow-[#00968F]/30">
+        <div className="border-[#00968F] flex flex-col gap-8 border bg-black container-fix rounded-xl shadow-2xl shadow-[#00968F]/70">
           <div className="flex items-center justify-between md:gap-8">
             <Image
               alt="about-image-l"
               src={"/images/about-l-image.png"}
-              className="w-10 md:w-20 h-fit"
+              className="w-10 md:w-[180px] h-fit"
               width={1920}
               height={1080}
             />
-            <h1 className="text-lg md:text-2xl lg:text-7xl text-center">
-              ABOUT THE EVENT
+            <h1 className="text-lg md:text-2xl lg:text-5xl text-center">
+              ABOUT HACKVERSE'24
             </h1>                                                                                                                                                                                                                                             
             <Image
               alt="about-image-r"
               src={"/images/about-r-image.png"}
-              className="w-10 md:w-20 h-fit"
+              className="w-10 md:w-[180px] h-fit"
               width={1920}
               height={1080}
             />
