@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-black">
       <div className="bg-black p-6 border-t border-white/20 ">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-center text-stroke-2 text-transparent text-7xl font-light">
+          <h1 className="text-center text-stroke-2 text-transparent text-4xl md:text-5xl lg:text-7xl font-light">
             Join our Community
           </h1>
 
