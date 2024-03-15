@@ -104,7 +104,7 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
                     width={1920}
                     height={1080}
                     src={sponsor}
-                    className="rounded-lg"
+                    className="rounded-lg h-[15rem]"
                     alt="sponsor-image"
                   />
                 </div>

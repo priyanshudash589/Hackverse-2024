@@ -29,7 +29,7 @@ const ParticlesMain = () => {
   if (init) {
     return (
       <Particles
-        className="overflow-hidden"
+        className="overflow-hidden w-[100%]"
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={require("@/lib/hackverse-particles .json")}
