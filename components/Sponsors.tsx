@@ -18,7 +18,7 @@ const Sponsors = () => {
       className="w-screen bg-black border-y-4 border-white"
     >
       <div className="container-fix">
-        <h1 className="uppercase text-center text-stroke-2 text-transparent font-bold tracking-widest text-7xl">
+        <h1 className="uppercase text-center text-stroke-2 text-transparent font-bold tracking-widest sm:tracking-normal text-6xl md:text-7xl lg-text-7xl">
           Sponsors
         </h1>
 
@@ -28,7 +28,7 @@ const Sponsors = () => {
           <SponsorsCategory title="Silver" />
         </div>
 
-        <h1 className="uppercase mt-8 text-center text-stroke-2 text-transparent font-bold tracking-widest text-7xl">
+        <h1 className="uppercase mt-8 text-center text-stroke-2 text-transparent font-bold tracking-widest text-5xl md:text-6xl lg:text-7xl">
           Partners
         </h1>
 
