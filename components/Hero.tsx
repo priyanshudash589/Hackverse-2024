@@ -24,12 +24,12 @@ const Hero = () => {
             <Image src={DimoHack} width={180} alt="DimoHack" />
             <p className="mt-4 mb-2">P r e s e n t s</p>
         </div>
-        <div className="flex justify-between items-center md:gap-12 lg:gap-24">
+        <div className="flex justify-between items-center md:gap-12 lg:gap-15">
 
           <Image className="hidden md:flex " src={heroLeft} alt="hero-l" />
       
-          <h1 className="tracking-wider text-center font-extrabold text-3xl md:text-4xl lg:text-7xl bg-gradient bg-clip-text text-transparent">
-           H A C K V E R S E 
+          <h1 className="tracking-wider text-center font-extrabold text-3xl md:text-7xl lg:text-7xl xl:text-[8rem] bg-gradient bg-clip-text text-transparent">
+           HACKVERSE 
           </h1>
 
           <Image className="hidden md:flex" src={heroRight}  alt="hero-r" />
