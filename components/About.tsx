@@ -5,7 +5,7 @@ const About = () => {
     <>
     <div id="about" className="h-full ">
       <div className="container-fix">
-        <div className="border-[#00968F] flex flex-col gap-8 border bg-black container-fix rounded-xl shadow-2xl shadow-[#00968F]/70">
+        <div className="border-[#00968F] flex flex-col gap-8 border bg-black container-fix rounded-xl shadow-upperShadow shadow-[#00968F]/70">
           <div className="flex items-center justify-between md:gap-8">
             <Image
               alt="about-image-l"
