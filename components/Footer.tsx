@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { IconType } from "react-icons";
 
-import { FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-black">
@@ -13,15 +13,15 @@ const Footer = () => {
             Join our Community
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
-            <SocialCard
-              id="@hackverse.ind"
-              title="Instagram"
-              icon={FaTwitter}
-            />
-            <SocialCard id="@hackverse.ind" title="Twitter" icon={FaTwitter} />
-            <SocialCard id="@hackverse.ind" title="Youtube" icon={FaTwitter} />
+          <div className="my-8">
+            <div className="flex justify-center items-center mb-4">
+              <SocialCard id="@hackverse.ind" title="Instagram" icon={FaInstagram} />
+            </div>
+            <div className="flex justify-center items-center mb-4">
+              <hr className="w-full border-t-2 border-efded1 mb-2" />
+            </div>
           </div>
+
         </div>
       </div>
       <Image
@@ -73,7 +73,7 @@ const SocialCard = ({ icon, title, id }: SocialCardProps) => {
           <Icon />
           <p className="text-sm uppercase">{title}</p>
         </div>
-        <p className="text-sm font-sans font-bold text-[#6B4098]">{id}</p>
+        <p className="text-sm font-sans font-bold text-[#6B4098] mx-6">{id}</p>
       </div>
       <div className="w-full h-[0.1px] bg-white/50" />
     </div>
