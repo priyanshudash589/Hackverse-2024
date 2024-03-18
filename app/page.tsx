@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Sponsors from "@/components/Sponsors";
+import Venue from "@/components/Venue";
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <About />
       <BountyBanner />
       <Sponsors />
+      <Venue />
       <FAQs />
       <Footer />
     </main>
