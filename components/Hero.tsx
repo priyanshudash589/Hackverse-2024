@@ -12,6 +12,7 @@ const Hero = () => {
     <div
       className="h-fix flex items-center flex-col justify-center"
       style={{
+        backgroundImage: `url('./images/hero-bg.png')`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
