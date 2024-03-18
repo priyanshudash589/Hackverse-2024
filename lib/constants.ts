@@ -1,3 +1,4 @@
+
 export const navPaths: NavPath[] = [
   {
     name: "Home",
@@ -28,12 +29,11 @@ export const navPaths: NavPath[] = [
 export const sponsors: Sponsor = {
   diamond: [
     "https://miro.medium.com/max/1400/1*aBSgZCDFAyyUYcq6DKU_mA.png",
-    "https://zeen.com/wp-content/uploads/2022/03/polygon.png",
+    "https://t4.ftcdn.net/jpg/00/90/16/51/360_F_90165155_MCR2C1DvJnu7cJ8hGcGTkwDqyApPdH9q.jpg",
     "https://t4.ftcdn.net/jpg/00/90/16/51/360_F_90165155_MCR2C1DvJnu7cJ8hGcGTkwDqyApPdH9q.jpg",
   ],
   gold: [
-    "https://t4.ftcdn.net/jpg/00/90/16/51/360_F_90165155_MCR2C1DvJnu7cJ8hGcGTkwDqyApPdH9q.jpg",
-    "https://th.bing.com/th/id/OIP.Sa_Ji6CRELgby9qrA0jezwAAAA?rs=1&pid=ImgDetMain",
+    "https://zeen.com/wp-content/uploads/2022/03/polygon.png",
     "https://t4.ftcdn.net/jpg/00/90/16/51/360_F_90165155_MCR2C1DvJnu7cJ8hGcGTkwDqyApPdH9q.jpg",
   ],
   silver: [
