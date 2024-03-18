@@ -3,6 +3,8 @@ import { Button } from "./ui/button";
 import DimoHack from "../public/images/Dimo White.svg";
 import heroRight from "../public/images/hero-r-logo.svg";
 import heroLeft from "../public/images/hero-l-logo.svg";
+import SRM from "../public/images/Srm White.svg";
+import texus from "../public/images/Texus White.svg";
 import Link from "next/link";
 
 const Hero = () => {
