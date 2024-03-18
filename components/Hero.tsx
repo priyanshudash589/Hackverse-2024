@@ -32,7 +32,7 @@ const Hero = () => {
 
           <Image className="hidden md:flex" src={heroRight} alt="hero-r" />
         </div>
-        <p className="tracking-widest text-center">{`TamilNadu's Largest Web3 Hackathon`}</p>
+        <p className="sm:tracking-widest text-center">{`TamilNadu's Largest Web3 Hackathon`}</p>
         <p className="tracking-widest text-center">April 06 & 07, 2024</p>
 
         <Link href="https://hackverse2024.devfolio.co/">
@@ -44,6 +44,14 @@ const Hero = () => {
           </Button>
           <button></button>
         </Link>
+        <div className="flex">
+          <div className="mr-2">
+            <Image src={SRM} alt="SRM" className="sm:w-[180px] w-[100px]" />
+          </div>
+          <div className="ml-2">
+            <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" />
+          </div>
+        </div>
       </div>
     </div>
   );

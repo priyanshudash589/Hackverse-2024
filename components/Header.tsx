@@ -16,14 +16,14 @@ import { usePathname } from "next/navigation";
 import { navPaths } from "@/lib/constants";
 import { ArrowDown, MenuIcon } from "lucide-react";
 import Image from "next/image";
-import HVlogo  from "@/public/images/hv-logo.svg";
+import HVlogo from "@/public/images/hv-logo.svg";
 const Header = () => {
   return (
-    <div className="bg-[#17121d] sticky top-0 z-50">
-      <div className="flex  justify-between p-2 lg:px-16 xl:max-w-7xl xl:mx-auto items-center">
+    <div className="bg-[#17121d] w-full sticky top-0 z-50">
+      <div className="flex justify-between p-2 lg:px-16 xl:max-w-7xl xl:mx-auto items-center">
         <Link href={"/"} className=" text-base font-bold">
-          <Image src={ HVlogo } width={140} alt="logo" />
-        </Link> 
+          <Image src={HVlogo} width={140} alt="logo" />
+        </Link>
         <div className="hidden md:inline-flex w-full  items-center">
           <div className="mx-auto flex gap-6">
             {navPaths.map((item, index) => {
