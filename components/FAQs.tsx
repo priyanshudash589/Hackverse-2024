@@ -82,7 +82,7 @@ const FAQs = () => {
     ];
 
     return (
-        <div className="w-screen bg-black">
+        <div id="faq" className="w-screen bg-black">
             <div className="container-fix">
                 <h1 className="text-center text-7xl text-white font-bold decoration-ui-primary">
                  FAQs

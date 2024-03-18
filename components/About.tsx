@@ -50,7 +50,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="container bg-transparent">
+        <div id="schedule" className="container bg-transparent">
 
           <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-white">
 
