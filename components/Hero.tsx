@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
-import DimoHack from "../public/images/dimo-hack.svg";
+import DimoHack from "../public/images/Dimo White.svg";
 import heroRight from "../public/images/hero-r-logo.svg";
 import heroLeft from "../public/images/hero-l-logo.svg";
 import Link from "next/link";
