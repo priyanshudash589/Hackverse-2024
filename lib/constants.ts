@@ -34,6 +34,7 @@ export const sponsors: Sponsor = {
   ],
   gold: [
     "https://zeen.com/wp-content/uploads/2022/03/polygon.png",
+    "https://medium.com/devfolio/ethindia-2-0-day-1-a-twitter-recap-445912fdf8d2",
     "https://t4.ftcdn.net/jpg/00/90/16/51/360_F_90165155_MCR2C1DvJnu7cJ8hGcGTkwDqyApPdH9q.jpg",
   ],
   silver: [
