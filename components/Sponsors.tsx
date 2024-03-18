@@ -32,7 +32,7 @@ const Sponsors = () => {
           Partners
         </h1>
 
-        <div className="bg-black/20 mt-8 container-fix">
+        <div id="partner" className="bg-black/20 mt-8 container-fix">
           <Marquee pauseOnHover autoFill className="flex gap-2">
             {sponsors.partners.map((sponsor, index) => {
               return (
