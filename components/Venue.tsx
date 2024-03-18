@@ -12,7 +12,7 @@ const Venue = () => {
       }}
     >
       <div className="flex items-center justify-center h-screen">
-        <div className="w-[50rem] bg-black border border-[#D8B4FF] rounded-md pt-[3rem] p-[4rem] relative flex flex-col justify-center">
+        <div className="w-[50rem] bg-black border border-[#D8B4FF] rounded-3xl pt-[3rem] p-[4rem] relative flex flex-col justify-center">
           <p className="text-5xl text-left font-bold bg-gradient bg-clip-text text-transparent mb-8">
             VENUE
           </p>

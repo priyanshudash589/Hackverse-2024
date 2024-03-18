@@ -14,9 +14,11 @@ const Footer = () => {
           </h1>
 
           <div className="my-8">
+            <a href="https://www.instagram.com/texus_2k24?igsh=MW53anl2ZWsybGRvZA==">
             <div className="flex justify-center items-center mb-4">
-              <SocialCard id="@hackverse.ind" title="Instagram" icon={FaInstagram} />
+              <SocialCard id="@texus_2k24" title="Instagram" icon={FaInstagram} />
             </div>
+            </a>
             <div className="flex justify-center items-center mb-4">
               <hr className="w-full border-t-2 border-efded1 mb-2" />
             </div>

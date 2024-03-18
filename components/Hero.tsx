@@ -19,7 +19,7 @@ const Hero = () => {
       }}
     >
       <div className="flex items-center flex-col gap-4 md:-mt-[100px]">
-        <div className="section flex flex-col justify-center items-center h-[10rem] w-[25rem] mb-6">
+        <div className="section flex flex-col justify-center items-center h-[10rem] w-[25rem] mt-16">
           <Image src={DimoHack} width={180} alt="DimoHack" />
           <p className="mt-4 mb-2">P r e s e n t s</p>
         </div>
