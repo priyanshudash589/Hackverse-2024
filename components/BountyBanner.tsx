@@ -17,7 +17,7 @@ const BountyBanner = () => {
           <Image
             alt="about-image-l"
             src={"/images/banner-l-shape.png"}
-            className="w-10 md:w-[220px] h-fit absolute left-[120px]"
+            className="w-10 md:w-[220px] h-fit absolute sm:left-[120px] left-[20px]"
             width={1920}
             height={1080}
           />
@@ -27,18 +27,18 @@ const BountyBanner = () => {
           <Image
             alt="about-image-r"
             src={"/images/banner-r-shape.png"}
-            className="w-10 md:w-[220px] h-fit absolute right-[120px]"
+            className="w-10 md:w-[220px] h-fit absolute sm:right-[120px] right-[20px]"
             width={1920}
             height={1080}
           />
         </div>
         <Link href="https://hackverse2024.devfolio.co/">
-        <Button
-          className="tracking-widest active:scale-90 duration-200 transition-all hover:shadow-white/20 hover:shadow-xl active:shadow-none ease-out font-bold uppercase bg-black border-4 border-[#A361E9] text-white rounded-full"
-          variant={"banner"}
-        >
-          Apply to Hack
-        </Button>
+          <Button
+            className="tracking-widest active:scale-90 duration-200 transition-all hover:shadow-white/20 hover:shadow-xl active:shadow-none ease-out font-bold uppercase bg-black border-4 border-[#A361E9] text-white rounded-full"
+            variant={"banner"}
+          >
+            Apply to Hack
+          </Button>
         </Link>
       </div>
     </div>
