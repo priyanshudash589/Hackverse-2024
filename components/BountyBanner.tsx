@@ -17,7 +17,7 @@ const BountyBanner = () => {
           <Image
             alt="about-image-l"
             src={"/images/banner-l-shape.png"}
-            className="w-10 md:w-[220px] h-fit absolute sm:left-[120px] left-[20px]"
+            className="w-10 md:w-[220px] h-fit absolute sm:left-[120px] left-[10px]"
             width={1920}
             height={1080}
           />
