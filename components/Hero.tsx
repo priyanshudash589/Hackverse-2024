@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="flex justify-between items-center md:gap-12 lg:gap-15">
           <Image className="hidden md:flex " src={heroLeft} alt="hero-l" />
 
-          <h1 className="tracking-wider text-center font-extrabold text-3xl md:text-7xl lg:text-7xl xl:text-[8rem] bg-gradient bg-clip-text text-transparent">
+          <h1 className="tracking-wider text-center font-extrabold text-4xl md:text-7xl lg:text-7xl xl:text-[8rem] bg-gradient bg-clip-text text-transparent">
             HACKVERSE
           </h1>
 
