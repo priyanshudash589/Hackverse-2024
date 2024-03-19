@@ -23,7 +23,7 @@ const Hero = () => {
           <Image
             src={DimoHack}
             alt="DimoHack"
-            className="sm:w-[180px] w-[120px]"
+            className="sm:w-[180px] w-[110px]"
           />
           <p className="mt-4 mb-2">P r e s e n t s</p>
         </div>
