@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
-import DimoHack from "../public/images/Dimo White.svg";
+import DimoHack from "../public/images/dimo.png";
 import heroRight from "../public/images/hero-r-logo.svg";
 import heroLeft from "../public/images/hero-l-logo.svg";
 import pnblogo from "../public/images/pnblogo.png";
@@ -34,7 +34,7 @@ const Hero = () => {
             <Image
               src={DimoHack}
               alt="dimohack"
-              className="sm:w-[60px] w-[200px]"
+              className="sm:w-[180px] w-[110px]"
             />
             <p className="mt-4 mb-2">P o w e r e d</p>
             <p className="mt-2 mb-4">B y</p>
