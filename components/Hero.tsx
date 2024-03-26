@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import DimoHack from "../public/images/Dimo White.svg";
 import heroRight from "../public/images/hero-r-logo.svg";
 import heroLeft from "../public/images/hero-l-logo.svg";
+import pnblogo from "../public/images/pnblogo.png";
 import SRM from "../public/images/Srm White.svg";
 import texus from "../public/images/Texus White.svg";
 import Link from "next/link";
@@ -19,13 +20,25 @@ const Hero = () => {
       }}
     >
       <div className="flex items-center flex-col gap-4 md:-mt-[55px]">
-        <div className="section flex flex-col justify-center items-center h-[10rem] w-[25rem] mt-16">
-          <Image
-            src={DimoHack}
-            alt="DimoHack"
-            className="sm:w-[180px] w-[110px]"
-          />
-          <p className="mt-4 mb-2">P r e s e n t s</p>
+        <div className="flex justify-center mt-16">
+          <div className="section flex flex-col justify-center items-center h-[10rem] w-[12.5rem]">
+            <Image
+              src={pnblogo}
+              alt="pnblogo"
+              className="sm:w-[180px] w-[110px]"
+            />
+            <p className="mt-4 mb-2">S p o n s o r e d</p>
+            <p className="mt-2 mb-4">B y</p>
+          </div>
+          <div className="section flex flex-col justify-center items-center h-[10rem] w-[12.5rem] ml-10">
+            <Image
+              src={DimoHack}
+              alt="dimohack"
+              className="sm:w-[60px] w-[200px]"
+            />
+            <p className="mt-4 mb-2">S p o n s o r e d</p>
+            <p className="mt-2 mb-4">B y</p>
+          </div>
         </div>
         <div className="flex justify-between items-center md:gap-12 lg:gap-15">
           <Image className="hidden md:flex " src={heroLeft} alt="hero-l" />

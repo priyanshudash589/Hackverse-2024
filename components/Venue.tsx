@@ -16,9 +16,11 @@ const Venue = () => {
           <p className="sm:text-5xl text-3xl text-left font-bold bg-gradient bg-clip-text text-transparent mb-8">
             VENUE
           </p>
-          <p className="text-white sm:m-2 m-1 sm:text-2xl text-xl text-left">
-            Yet to be disclosed
+          <a href="https://maps.app.goo.gl/u5nCaUoFmD1tF79F7">
+          <p className="text-white sm:m-2 m-1 sm:text-3xl font-bold text-xl text-left">
+            RMZ One Paramount
           </p>
+          </a>
         </div>
       </div>
     </div>
