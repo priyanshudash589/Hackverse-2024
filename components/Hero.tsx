@@ -40,10 +40,10 @@ const Hero = () => {
           {/** Powered By  */}
           <p className="flex justify-center items-center text-sm md:text-xl">P R E S E N T S</p>
         </div>
-        <div className="flex justify-between items-center md:gap-12 lg:gap-15">
+        <div className="flex justify-between items-center md:gap-12 lg:gap-15 mt-16 md:mt-5">
           <Image className="hidden md:flex " src={heroLeft} alt="hero-l" />
 
-          <h1 className="tracking-wider text-center font-extrabold text-4xl md:text-7xl lg:text-7xl xl:text-[8rem] bg-gradient bg-clip-text text-transparent">
+          <h1 className="tracking-wider text-center font-extrabold text-4xl md:text-7xl mt-18 lg:text-7xl xl:text-[8rem] bg-gradient bg-clip-text text-transparent">
             HACKVERSE
           </h1>
 
