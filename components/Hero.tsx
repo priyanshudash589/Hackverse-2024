@@ -20,15 +20,14 @@ const Hero = () => {
       }}
     >
       <div className="flex items-center flex-col gap-4 md:-mt-[55px]">
-        <div className="flex justify-center mt-16">
-          <div className="section flex flex-col justify-center items-center h-[10rem] w-[12.5rem]">
+        <div className="flex flex-col justify-center sm:mt-4 md:mt-16">
+          <div className="flex-row flex ">
+            <div className="section flex flex-col justify-center items-center h-[10rem] w-[12.5rem]">
             <Image
               src={pnblogo}
               alt="pnblogo"
               className="sm:w-[180px] w-[110px]"
             />
-            <p className="mt-4 mb-2">S p o n s o r e d</p>
-            <p className="mt-2 mb-4">B y</p>
           </div>
           <div className="section flex flex-col justify-center items-center h-[10rem] w-[12.5rem] ml-10">
             <Image
@@ -36,9 +35,10 @@ const Hero = () => {
               alt="dimohack"
               className="sm:w-[180px] w-[110px]"
             />
-            <p className="mt-4 mb-2">P o w e r e d</p>
-            <p className="mt-2 mb-4">B y</p>
           </div>
+          </div>
+          {/** Powered By  */}
+          <p className="flex justify-center items-center text-sm md:text-xl">P R E S E N T S</p>
         </div>
         <div className="flex justify-between items-center md:gap-12 lg:gap-15">
           <Image className="hidden md:flex " src={heroLeft} alt="hero-l" />
