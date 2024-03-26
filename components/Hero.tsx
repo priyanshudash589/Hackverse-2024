@@ -33,7 +33,7 @@ const Hero = () => {
             <Image
               src={DimoHack}
               alt="dimohack"
-              className="sm:w-[180px] w-[110px]"
+              className="sm:w-[220px] w-[150px]"
             />
           </div>
           </div>
@@ -49,7 +49,6 @@ const Hero = () => {
 
           <Image className="hidden md:flex" src={heroRight} alt="hero-r" />
         </div>
-        <p className="sm:tracking-widest text-center">{`TamilNadu's Largest Web3 Hackathon`}</p>
         <p className="tracking-widest text-center">April 06 & 07, 2024</p>
 
         <Link href="https://hackverse2024.devfolio.co/">
