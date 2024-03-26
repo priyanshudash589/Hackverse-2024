@@ -36,7 +36,7 @@ const Hero = () => {
               alt="dimohack"
               className="sm:w-[60px] w-[200px]"
             />
-            <p className="mt-4 mb-2">S p o n s o r e d</p>
+            <p className="mt-4 mb-2">P o w e r e d</p>
             <p className="mt-2 mb-4">B y</p>
           </div>
         </div>
@@ -69,6 +69,8 @@ const Hero = () => {
             <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" />
           </div>
         </div>
+        <p className="text-center text-3xl font-bold mt-1"><a href="https://maps.app.goo.gl/u5nCaUoFmD1tF79F7">RMZ One Paramount</a></p>
+        <p className="text-center mt-1">Venue Partner</p>
       </div>
     </div>
   );
