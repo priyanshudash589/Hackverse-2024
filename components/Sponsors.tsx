@@ -108,7 +108,7 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
           </div>
         )}
         {title === "Gold" && (
-          <div className="grid grid-cols-2 grid-flow-row-dense md:grid-cols-3 gap-8 my-8 rounded-lg">
+          <div className="grid grid-cols-2 grid-flow-row-dense md:grid-cols-3 gap-8 my-12 rounded-lg">
             {sponsors.gold.map((sponsor, index) => {
               return (
                 <div key={index}>
