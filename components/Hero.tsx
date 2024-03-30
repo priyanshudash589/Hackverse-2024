@@ -4,8 +4,8 @@ import DimoHack from "../public/images/dimo1.png";
 import heroRight from "../public/images/hero-r-logo.svg";
 import heroLeft from "../public/images/hero-l-logo.svg";
 import pnblogo from "../public/images/pnblogo.png";
-import SRM from "../public/images/Srm White.svg";
-import texus from "../public/images/Texus White.svg";
+import SRM from "../public/images/srm-rmp-logo.png";
+import texus from "../public/images/texus-logo-colored.png";
 import Link from "next/link";
 
 const Hero = () => {
@@ -58,12 +58,12 @@ const Hero = () => {
           >
             Apply Now
           </Button>
-          <button></button>
         </Link>
-        <div className="flex">
+        <div className="flex flex-row justify-center items-center">
           <div className="mr-2">
             <Image src={SRM} alt="SRM" className="sm:w-[180px] w-[100px]" />
           </div>
+          <h2>Department of computer science and engineering</h2>
           <div className="ml-2">
             <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" />
           </div>
