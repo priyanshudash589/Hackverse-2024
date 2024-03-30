@@ -45,10 +45,10 @@ const Footer = () => {
           </div>
           <Image
             alt="texus-logo"
-            src={"/images/texus-logo.png"}
+            src={"/images/texus-logo-colored.png"}
             width={1920}
             height={1080}
-            className="w-20 h-fit invert"
+            className=" w-28 h-fit"
           />
         </div>
       </div>

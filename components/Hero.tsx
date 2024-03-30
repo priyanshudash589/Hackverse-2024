@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
           <h2>Department of computer science and engineering</h2>
           <div className="ml-2">
-            <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" />
+            <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" width={120} />
           </div>
         </div>
         <p className="text-center text-3xl font-bold mt-1"><a href="https://maps.app.goo.gl/u5nCaUoFmD1tF79F7">RMZ One Paramount</a></p>
