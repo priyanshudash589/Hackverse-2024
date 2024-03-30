@@ -26,7 +26,6 @@ const Sponsors = () => {
         <div className="bg-black/20 mt-8 container-fix">
           <SponsorsCategory title="Diamond" />
           <SponsorsCategory title="Gold" />
-          <SponsorsCategory title="Silver" />
         </div>
 
         <h1 className="uppercase mt-8 text-center text-stroke-2 text-transparent font-bold tracking-widest text-5xl md:text-6xl lg:text-7xl">
@@ -57,7 +56,7 @@ const Sponsors = () => {
 export default Sponsors;
 
 interface SponsorsCategoryProps {
-  title: "Diamond" | "Gold" | "Silver";
+  title: "Diamond" | "Gold";
 }
 
 const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
@@ -68,9 +67,6 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
       break;
     case "Gold":
       sponsorImages = sponsors.gold;
-      break;
-    case "Silver":
-      sponsorImages = sponsors.silver;
       break;
     default:
       sponsorImages = [];
@@ -86,7 +82,7 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
               : title == "Silver"
                 ? "text-[#EEDFD0]"
                 : "text-[#FFFFFF]",
-          "text-center font-bold text-lg uppercase"
+          "text-center font-bold text-5xl uppercase"
         )}
       >
         {title}
@@ -98,49 +94,38 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
             {sponsors.diamond.map((sponsor, index) => {
               return (
                 <div key={index}>
+                  <a href={`#diamond-sponsor-${index}`}>
                   <Image
                     width={1920}
                     height={1080}
                     src={`/images/${sponsor}`}
                     className="rounded-lg"
                     alt={`diamond-sponsor-${index}`} />
+                  </a>
                 </div>
               );
             })}
           </div>
         )}
         {title === "Gold" && (
-          <div className="grid grid-cols-2 grid-flow-row-dense md:grid-cols-3 gap-4 my-4 rounded-lg">
+          <div className="grid grid-cols-2 grid-flow-row-dense md:grid-cols-3 gap-8 my-8 rounded-lg">
             {sponsors.gold.map((sponsor, index) => {
               return (
                 <div key={index}>
+                  <a href={`#gold-sponsor-${index}`}>
                   <Image
                     width={1920}
                     height={1080}
                     src={`/images/${sponsor}`}
                     className="rounded-lg"
                     alt={`gold-sponsor-${index}`} />
+                  </a>
                 </div>
               );
             })}
           </div>
         )}
-        {title === "Silver" && (
-          <div className="grid grid-cols-2 grid-flow-row-dense md:grid-cols-3 gap-4 my-4 rounded-lg">
-            {sponsors.silver.map((sponsor, index) => {
-              return (
-                <div key={index}>
-                  <Image
-                    width={1920}
-                    height={1080}
-                    src={`/images/${sponsor}`}
-                    className="rounded-lg"
-                    alt={`silver-sponsor-${index}`} />
-                </div>
-              );
-            })}
-          </div>
-        )}
+        
       </div>
     </div>
   );

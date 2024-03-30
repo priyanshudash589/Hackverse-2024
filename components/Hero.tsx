@@ -63,7 +63,7 @@ const Hero = () => {
           <div className="mr-2">
             <Image src={SRM} alt="SRM" className="sm:w-[180px] w-[100px]" />
           </div>
-          <h2>Department of computer science and engineering</h2>
+          <h2>Department of Computer Science and Engineering</h2>
           <div className="ml-2">
             <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" width={120} />
           </div>
