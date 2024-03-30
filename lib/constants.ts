@@ -25,19 +25,10 @@ export const navPaths: NavPath[] = [
   },
 ];
 
-export const sponsors: Sponsor = {
-  diamond: [
-    "https://miro.medium.com/max/1400/1*aBSgZCDFAyyUYcq6DKU_mA.png",
-  ],
-  gold: [
-    "https://zeen.com/wp-content/uploads/2022/03/polygon.png",
-    "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*OVB20rzqt5NaiUVsZ6V58Q.jpeg",
-  ],
-  silver: [
-    
-  ],
-
-  partners: [
-    "https://t4.ftcdn.net/jpg/00/90/16/51/360_F_90165155_MCR2C1DvJnu7cJ8hGcGTkwDqyApPdH9q.jpg",
-  ],
+export const sponsors = {
+  diamond: ["diamond1.png", "diamond2.png", "diamond3.jpg"],
+  gold: ["gold1.png", "gold2.jpg", "gold3.svg"],
+  silver: ["silver1.svg", "silver1.svg", "silver1.svg"],
+  partners: ["/images/partner1.png", "/images/partner1.png", "/images/partner1.png"],
 };
+

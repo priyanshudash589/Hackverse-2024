@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
 
+
 const Sponsors = () => {
   return (
     <div
@@ -60,6 +61,20 @@ interface SponsorsCategoryProps {
 }
 
 const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
+  let sponsorImages;
+  switch (title) {
+    case "Diamond":
+      sponsorImages = sponsors.diamond;
+      break;
+    case "Gold":
+      sponsorImages = sponsors.gold;
+      break;
+    case "Silver":
+      sponsorImages = sponsors.silver;
+      break;
+    default:
+      sponsorImages = [];
+  }
   return (
     <div>
       <p
@@ -67,10 +82,10 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
           title == "Diamond"
             ? "text-[#01FFFF]"
             : title == "Gold"
-            ? "text-[#FBFF14]"
-            : title == "Silver"
-            ? "text-[#EEDFD0]"
-            : "text-[#FFFFFF]",
+              ? "text-[#FBFF14]"
+              : title == "Silver"
+                ? "text-[#EEDFD0]"
+                : "text-[#FFFFFF]",
           "text-center font-bold text-lg uppercase"
         )}
       >
@@ -86,10 +101,9 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
                   <Image
                     width={1920}
                     height={1080}
-                    src={sponsor}
+                    src={`/images/${sponsor}`}
                     className="rounded-lg"
-                    alt="sponsor-image"
-                  />
+                    alt={`diamond-sponsor-${index}`} />
                 </div>
               );
             })}
@@ -103,10 +117,9 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
                   <Image
                     width={1920}
                     height={1080}
-                    src={sponsor}
+                    src={`/images/${sponsor}`}
                     className="rounded-lg"
-                    alt="sponsor-image"
-                  />
+                    alt={`gold-sponsor-${index}`} />
                 </div>
               );
             })}
@@ -120,10 +133,9 @@ const SponsorsCategory = ({ title }: SponsorsCategoryProps) => {
                   <Image
                     width={1920}
                     height={1080}
-                    src={sponsor}
+                    src={`/images/${sponsor}`}
                     className="rounded-lg"
-                    alt="sponsor-image"
-                  />
+                    alt={`silver-sponsor-${index}`} />
                 </div>
               );
             })}
