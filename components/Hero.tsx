@@ -68,6 +68,7 @@ const Hero = () => {
             <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" width={120} />
           </div>
         </div>
+        &nbsp;
         <p className="text-center text-3xl font-bold mt-1"><a href="https://maps.app.goo.gl/u5nCaUoFmD1tF79F7">RMZ One Paramount</a></p>
         <p className="text-center mt-1">Venue Partner</p>
       </div>
