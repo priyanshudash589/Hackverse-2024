@@ -59,12 +59,14 @@ const Hero = () => {
             Apply Now
           </Button>
         </Link>
-        <div className="flex flex-row justify-center items-center">
-          <div className="mr-2">
+        <div className="flex flex-row justify-between items-center">
+          <div className="">
             <Image src={SRM} alt="SRM" className="sm:w-[180px] w-[100px]" />
           </div>
+          <div className=" text-center "> 
           <h2>Department of Computer Science and Engineering</h2>
-          <div className="ml-2">
+          </div>
+          <div className="">
             <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" width={120} />
           </div>
         </div>
