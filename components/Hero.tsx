@@ -11,7 +11,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div
-      className="h-fix flex items-center flex-col justify-center"
+      className="h-fit flex items-center flex-col justify-center"
       style={{
         backgroundImage: `url('./images/hero-bg.png')`,
         backgroundRepeat: "no-repeat",
@@ -19,7 +19,7 @@ const Hero = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex items-center flex-col gap-4 md:-mt-[55px]">
+      <div className="flex items-center flex-col gap-2 md:-mt-[55px]">
         <div className="flex flex-col justify-center sm:mt-4 md:mt-16">
           <div className="flex-row flex ">
             <div className="section flex flex-col justify-center items-center h-[10rem] w-[12.5rem]">
@@ -59,15 +59,15 @@ const Hero = () => {
             Apply Now
           </Button>
         </Link>
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-row justify-between items-center mt-8">
           <div className="">
-            <Image src={SRM} alt="SRM" className="sm:w-[180px] w-[100px]" />
+            <Image src={SRM} alt="SRM" className="sm:w-[150px] w-[100px]" />
           </div>
-          <div className=" text-center "> 
-          <h2>Department of Computer Science and Engineering</h2>
+          <div className=" text-center sm:font-lg font-sm"> 
+          <h2 className="sm:w-max w-min min-w-15">Department of  Computer Science and Engineering</h2>
           </div>
           <div className="">
-            <Image src={texus} alt="Texus" className="sm:w-[180px] w-[100px]" width={120} />
+            <Image src={texus} alt="Texus" className="sm:w-[120px] w-[100px]" width={120} />
           </div>
         </div>
         &nbsp;
